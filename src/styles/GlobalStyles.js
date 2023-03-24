@@ -1,6 +1,7 @@
 import styled, { createGlobalStyle, css } from 'styled-components';
 import * as colors from '../config/colors';
 import 'react-toastify/dist/ReactToastify.css';
+import './fonts.css';
 
 export default createGlobalStyle`
   * {
@@ -8,11 +9,11 @@ export default createGlobalStyle`
     padding: 0;
     outline: none;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
   }
 
   body {
     background-color: ${colors.primaryDark};
-    font-family: sans-serif;
   }
 
   html, border-style, #root {
@@ -49,8 +50,10 @@ export default createGlobalStyle`
 
 export const Container = styled.div`
   display: block;
-  padding: 5% 15%;
-  margin: 10%;
+  padding: 20px 50px;
+  margin-top: 30px;
+  margin-inline: auto;
+  max-width: 500px;
   background: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
