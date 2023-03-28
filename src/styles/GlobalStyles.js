@@ -34,7 +34,7 @@ export default createGlobalStyle`
     transition: all 200ms;
 
     :hover {
-      background: ${colors.secondary};
+      filter: brightness(75%)
     }
   }
 
