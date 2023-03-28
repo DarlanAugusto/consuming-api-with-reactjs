@@ -16,7 +16,7 @@ export default function Register() {
   const toastConfig = {
     theme: 'dark',
     closeButton: false,
-    pauseOnFocusLoss: false,
+    pauseOnHover: false,
   };
 
   const createUser = async () => {
